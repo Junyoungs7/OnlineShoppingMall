@@ -2,6 +2,7 @@ package com.SesinMall.entity;
 
 import com.SesinMall.constant.ItemCategory;
 import com.SesinMall.constant.SellStatus;
+import com.SesinMall.dto.ItemFormDto;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -35,7 +36,7 @@ public class Item extends BaseEntity{
     private SellStatus sellStatus;
 
 
-    public Item updateItem(){
-
-    }
+//    public Item updateItem(ItemFormDto itemFormDto){
+//
+//    }
 }
