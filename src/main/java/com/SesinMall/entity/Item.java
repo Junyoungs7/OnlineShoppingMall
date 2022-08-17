@@ -13,6 +13,7 @@ import javax.persistence.*;
 public class Item extends BaseEntity{
 
     @Id
+    @Column(name = "item_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
